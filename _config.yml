@@ -1,14 +1,31 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: RXDart
+description: Jekyll Theme based on Semantic UI
+analytics: UA-XXXXXXXX-X
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title
+
+# Social Networks
+social:
+  - title: facebook
+    url: "https://www.facebook.com/XXX"
+  - title: twitter
+    url: "https://twitter.com/xljroXX"
+  - title: instagram
+    url: "http://instagram.com/XXX"
+  - title: google-plus
+    url: "https://plus.google.com/+XXX"
+  - title: linkedin
+    url: "https://cn.linkedin.com/in/XXX"
+  - title: github
+    url: "https://github.com/XXX"
+  - title: picture-o
+    url: "https://500px.com/XXX"
+
+# Contacts
+email: XXX@gmail.com
+
