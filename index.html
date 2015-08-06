@@ -1,23 +1,52 @@
 ---
 layout: default
+typer: "Hello, 你好, こんにちわ"
+description: "This is RXDart Theme"
+img: "/assests/img/site/index.png"
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <div class="ui vertical feature segment">
+    <div class="ui centered page grid">
+      <div class="fourteen wide column">
+        <div class="ui three column center aligned stackable divided grid">
+          <div class="column column-feature">
+            <div class="ui icon header">
+              <i class="fa fa-check icon"></i>
+              Semantic UI
+            </div>
+            <p>RXDart is mainly based on Semantic UI</p>
+            <p>
+              <a class="ui button" href="http://www.semantic-ui.com/">
+                SemanticUI
+              </a>
+            </p>
+          </div>
+          <div class="column column-feature">
+            <div class="ui icon header">
+              <i class="flaticon-calendar icon"></i>
+              Weekly Update
+            </div>
+            <p>RXDart will be weekly updated, hmmmm, maybe XD</p>
+            <p>
+              <a class="ui green right labeled icon button" href="#">
+                Check Version
+                <i class="right flaticon-move icon"></i>
+              </a>
+            </p>
+          </div>
+          <div class="column column-feature">
+            <div class="ui icon header">
+              <i class="flaticon-speech icon"></i>
+              Features
+            </div>
+            <p>Get feedback community of loving pet owners on our online...</p>
+            <p>
+              <a class="ui button" href="#">
+                Share
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
